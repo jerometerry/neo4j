@@ -8,21 +8,30 @@ Windows and Mac OS X require boot2docker, which has dependencies on [Virtual Box
 
 To test docker is installed properly
 
+```
 docker --vesrion
+```
 
 ### Checkout
+
+```
 git clone https://github.com/jerometerry/neo4j.git
+```
 
 ### Building docker container
-cd neo4j
 
+```
+cd neo4j
 docker build -t jterry/neo4j .
+```
 
 Alternatively, you can just run build.sh (or build.cmd on Windows)
 
 ### Running docker container
 
+```
 docker run -it --name neo4j -p 7474:7474 -p 1337:1337 jterry/neo4j
+```
 
 Alternatively, you can just run run.sh (run.cmd on Windows). Run.sh / run.cmd run the docker container detached, giving you access to the command line again after starting the container. 
 
@@ -36,7 +45,9 @@ If running in boot2docker, you either have to expose port 7474 out of the boot2d
 
 The command 
 
+```
 boot2docker ip
+```
 
 will give you the ip address of the boot2docker VM.
 
