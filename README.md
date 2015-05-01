@@ -6,6 +6,10 @@ neo4j
 
 Windows and Mac OS X require boot2docker, which has dependencies on [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
 
+To test docker is installed properly
+
+docker --vesrion
+
 ### Checkout
 git clone https://github.com/jerometerry/neo4j.git
 
