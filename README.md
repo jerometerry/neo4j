@@ -15,6 +15,7 @@ git clone https://github.com/jerometerry/neo4j.git
 
 ### Building docker container
 cd neo4j
+
 docker build -t jterry/neo4j .
 
 ### Running docker container
