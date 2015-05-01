@@ -29,8 +29,8 @@ Username: neo4j
 
 Password: password
 
-### Networkibg
+### Networking
 
-To get httt://localhost:7474 to work using boot2docker, you can forward port 7474 out of the boot2docker vm in Virtualbox, mapping to the same pot. this is a bit hacky, bot it works.
+To get http://localhost:7474 to work using boot2docker, you can forward port 7474 out of the boot2docker vm in Virtualbox, mapping to the same pot. this is a bit hacky, but it works. 
 
 Instead of using localhost, you could probably use the ip addresss of boot2docker itself, although I havent tried. 
