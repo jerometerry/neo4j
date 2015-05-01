@@ -27,15 +27,14 @@ docker run -it --name neo4j -p 7474:7474 -p 1337:1337 jterry/neo4j
 Alternatively, you can just run run.sh (or run.cmd on Windows)
 
 ### Open neo4j in browser
+
 http://localhost:7474
 
-### Default Credentials
-Username: neo4j
+If running in boot2docker, you either have to expose port 7474 out of the boot2docker VM, or you'll need to use the ip address of boot2docker
 
-Password: password
+The command 
 
-### Networking
+boot2docker ip
 
-To get http://localhost:7474 to work using boot2docker, you can forward port 7474 out of the boot2docker vm in Virtualbox, mapping to the same pot. this is a bit hacky, but it works. 
+will give you the ip address of the boot2docker VM.
 
-Instead of using localhost, you could probably use the ip addresss of boot2docker itself, although I havent tried. See http://webiphany.com/technology/2014/06/12/what-ip-do-i-access-when-using-docker-and-boot2docker.html
