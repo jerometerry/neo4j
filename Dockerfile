@@ -1,4 +1,4 @@
-FROM dockerfile/java
+FROM dockerfile/java:openjdk-7-jre
 MAINTAINER Jerome Terry, jerome.l.terry@gmail.com
 
 RUN wget -O - http://debian.neo4j.org/neotechnology.gpg.key| apt-key add -  && \

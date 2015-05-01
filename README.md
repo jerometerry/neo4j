@@ -24,7 +24,9 @@ Alternatively, you can just run build.sh (or build.cmd on Windows)
 
 docker run -it --name neo4j -p 7474:7474 -p 1337:1337 jterry/neo4j
 
-Alternatively, you can just run run.sh (or run.cmd on Windows)
+Alternatively, you can just run run.sh (run.cmd on Windows). Run.sh / run.cmd run the docker container detached, giving you access to the command line again after starting the container. 
+
+You can also run debug.sh (debug.cmd on Wndows) to run and attach to the container, so that you an see console output from the neo4j server. If you use this method, then you stop the container with CTRL + C.
 
 ### Open neo4j in browser
 
